@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Imersão</title>
 
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./scr/assets/styles/reset.css">
+    <link rel="stylesheet" href="./scr/assets/styles/vars.css">
+    <link rel="stylesheet" href="./scr/assets/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="./scr/assets/styles/main-content.css">
     
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +23,7 @@
         <nav class="sidebar__navigation">
           <div class="logo">
             <a href="">
-              <img src="./assets/icons/logo-spotify.png" alt="Logo" />
+              <img src="./scr/assets/icons/logo-spotify.png" alt="Logo" />
             </a>
           </div>
           <ul>
@@ -71,6 +73,46 @@
           </div>
         </div>
       </div>
+
+      <main>
+        <div class="main-container">
+          <nav class="header__navigation">
+            <div class="navigation">
+              <button class="arrow-left">
+                <img src="./scr/assets/icons/small-left.png" alt="Seta esquerda">
+              </button>
+              <button class="arrow-right">
+                <img src="./scr/assets/icons/small-right.png" alt="Seta direita">
+              </button>
+
+              <div class="header__search">
+                <img src="./scr/assets/icons/search.png" alt="">
+                <input id="search-input" type="text"
+                 maxlength="800" placeholder="O que voce quer ouvir?">
+              </div>
+
+              <div class="header__login">
+                <button class="subscribe">Inscreva-se</button>
+                <button class="login">Entrar</button>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </main>
+
+
+      <footer class="disclaimer-premium">
+        <div class="text">
+            <p class="disclaimer-premium__title">Testar o Premium de graça</p>
+            <p class="disclaimer-premium__subtitle">
+                Inscreva-se para curtir música ilimitada e podcasts só com alguns
+                anúncios. Não precisa de cartão de crédito.
+            </p>
+        </div>
+        <div class="button">
+            <button type="button">Inscreva-se grátis</button>
+        </div>
+    </footer>
     
 
 
